@@ -11,6 +11,8 @@ For me, what got my facination for Clojure going, was [Bodil Stokkes](https://tw
 
 Then, as I started to dig into this, I discovered the talks by Rich Hickey, [changelog.com](https://changelog.com/rich-hickeys-greatest-hits/) has a nicely curated list of his greatest hits.
 
+After a while, I found there was a conference called [clojure/conj](http://clojure-conj.org) which has some very nice talks. Also there is [Clojure/West](http://clojurewest.org). Two of my favourites from these are [Zack Oates](https://www.youtube.com/watch?v=0GzzFeS5cMc) and [Bruce Hauman](https://www.youtube.com/watch?v=j-kj2qwJa_E).
+
 # What editor?
 Personally, setting this whole development environment thing up was a slight struggle, since [clojure on emacs](https://github.com/clojure-emacs) was not as dominant as it is today. Searching around, you still found references to Slime and nnrepl.el. This is much simpler now. Either you use Emacs with [CIDER](https://github.com/clojure-emacs/cider), vi (please forgive me) with [fireplace](https://github.com/tpope/vim-fireplace), or the excellent [cursive](https://cursiveclojure.com) if you use Intellij.
 
