@@ -13,6 +13,10 @@ Then, as I started to dig into this, I discovered the talks by Rich Hickey, [cha
 
 After a while, I found there was a conference called [clojure/conj](http://clojure-conj.org) which has some very nice talks. Also there is [Clojure/West](http://clojurewest.org). Two of my favourites from these are [Zack Oates](https://www.youtube.com/watch?v=0GzzFeS5cMc) and [Bruce Hauman](https://www.youtube.com/watch?v=j-kj2qwJa_E).
 
+# What about the types
+For me the discussion with myself wether or not strong typing is good never ceases. In my domain, which is web-applications, we generally tend to send JSON around to various rest-apis. We fetch this data by querying databases with SQL, and we persist in the same way. So in your average Java app, you consume JSON, convert it to some domain object and then create some sql based on the domain object to persist it. Add to that a liberal amount of annotations which are also not always checked by the compiler, and you start wondering how types help you at all.
+[Jessica Kerr](https://twitter.com/jessitron) nails this in this [talk](https://www.youtube.com/watch?v=GFQqyXoL0YQ)
+
 # What editor?
 Personally, setting this whole development environment thing up was a slight struggle, since [clojure on emacs](https://github.com/clojure-emacs) was not as dominant as it is today. Searching around, you still found references to Slime and nnrepl.el. This is much simpler now. Either you use Emacs with [CIDER](https://github.com/clojure-emacs/cider), vi (please forgive me) with [fireplace](https://github.com/tpope/vim-fireplace), or the excellent [cursive](https://cursiveclojure.com) if you use Intellij.
 
